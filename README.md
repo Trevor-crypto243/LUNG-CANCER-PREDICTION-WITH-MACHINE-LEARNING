@@ -1,5 +1,6 @@
 <h1>IMAGE DENOISING USING MACHINE LEARNING</h1>
-This codebase provides an implementation of image denoising using deep learning. Specifically, we use a convolutional neural network (CNN) to learn a mapping between noisy and denoised images .
+This is a hybrid image denoising approach combining CNNs, wavelet transform and linear filters will result in improved performance in terms of denoising performance, producing visually realistic denoised images while maintaining good preservation of image details and texture compared to individual methods alone.
+
 
 <h2>Requirements</h2>
 This codebase requires the following libraries:
