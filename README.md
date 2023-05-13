@@ -1,6 +1,23 @@
 <h1>IMAGE DENOISING USING MACHINE LEARNING</h1>
 This is a hybrid image denoising approach combining CNNs, wavelet transform and linear filters will result in improved performance in terms of denoising performance, producing visually realistic denoised images while maintaining good preservation of image details and texture compared to individual methods alone. below are extra instructions.
 
+<h2>Files</h2>
+<ol>
+<li>Noisy image identification.ipynb  - this is the ipynb file that reads the three directories 
+<ul>
+<li>Bengin cases</li>
+<li>Malignant cases</li>
+<li>Normal case</li>
+<ul>
+and identifies the nosiy images in each. It then proceeds to store the noisy images in new folders with the respective names
+
+This file uses a combination of `mean_squared_error()` and `peak_signal_noise_ratio()` functions to increase the efficiency of identifying the noisy images
+
+</li>
+<li>DWT.ipynb - this is the discrete wavelet transform file that denoises the noisy images</li>
+<li>CNN.ipynb this is the convolutional neural network that the images will be passed through after being denoised by discrete wavelength tranforms</li>
+</ol>
+
 
 <h2>Requirements</h2>
 This codebase requires the following libraries:
@@ -26,14 +43,14 @@ To run the image super-resolution code, follow these steps:
 <li>The denoised image will be saved to the specified output path.</li>
 </ol>
 
-<h2>Evaluation</h2>
+<!-- <h2>Evaluation</h2>
 We can evaluate the performance of the image super-resolution using the following metrics:
 
 <ul>
 <li>Peak Signal-to-Noise Ratio (PSNR)</li>
 <li>Structural Similarity Index (SSIM)</li>
 <li>Mean Squared Error (MSE)</li>
-</ul>
+</ul> -->
 
 To calculate these metrics, follow these steps:
 <ol>
