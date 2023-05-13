@@ -1,5 +1,5 @@
 <h1>IMAGE DENOISING USING MACHINE LEARNING</h1>
-This is a hybrid image denoising approach combining CNNs, wavelet transform and linear filters will result in improved performance in terms of denoising performance, producing visually realistic denoised images while maintaining good preservation of image details and texture compared to individual methods alone.
+This is a hybrid image denoising approach combining CNNs, wavelet transform and linear filters will result in improved performance in terms of denoising performance, producing visually realistic denoised images while maintaining good preservation of image details and texture compared to individual methods alone. below are extra instructions.
 
 
 <h2>Requirements</h2>
@@ -18,7 +18,7 @@ To run the image super-resolution code, follow these steps:
 <ol>
 <li>Clone this repository to your local machine.</li>
 <li>Install the required libraries using `pip install tensorflow keras numpy opencv-python`.</li>
-<li>Open the `super_resolution.py` file in a Python IDE.</li>
+<li>Open the `CNN.ipynb` file in a Python IDE.</li>
 <li>Modify the `input_image_path` variable to point to the noisy input image you want to upscale.</li>
 <li>Modify the `output_image_path` variable to specify the output location for the denoising image.</li>
 <li>Modify the `scale_factor` variable to set the scaling factor for the denoising algorithm.</li>
