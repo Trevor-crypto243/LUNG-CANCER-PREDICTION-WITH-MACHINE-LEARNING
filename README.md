@@ -3,19 +3,19 @@ This is a hybrid image denoising approach combining CNNs, wavelet transform and 
 
 <h2>Files</h2>
 <ol>
-<li>Noisy image identification.ipynb  - this is the ipynb file that reads the three directories 
-<ul>
-<li>Bengin cases</li>
-<li>Malignant cases</li>
-<li>Normal case</li>
-<ul>
+<li> `Noisy image identification.ipynb`  - this is the ipynb file that reads the three directories 
+    <ul>
+    <li>Bengin cases</li>
+    <li>Malignant cases</li>
+    <li>Normal case</li>
+    </ul>
 and identifies the nosiy images in each. It then proceeds to store the noisy images in new folders with the respective names
 
 This file uses a combination of `mean_squared_error()` and `peak_signal_noise_ratio()` functions to increase the efficiency of identifying the noisy images
 
 </li>
-<li>DWT.ipynb - this is the discrete wavelet transform file that denoises the noisy images</li>
-<li>CNN.ipynb this is the convolutional neural network that the images will be passed through after being denoised by discrete wavelength tranforms</li>
+<li> `DWT.ipynb` - this is the discrete wavelet transform file that denoises the noisy images</li>
+<li> `CNN.ipynb` this is the convolutional neural network that the images will be passed through after being denoised by discrete wavelength tranforms</li>
 </ol>
 
 
