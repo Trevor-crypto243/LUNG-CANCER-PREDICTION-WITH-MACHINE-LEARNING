@@ -19,8 +19,8 @@ This file uses a combination of `mean_squared_error()` and `peak_signal_noise_ra
 <div class="img">
  <img src="./noise_removed.png" alt="image showing the noise removed">
  <!-- ![Alt text](image link) -->
-![image text](./noise_removed.png) 
-![screenshot](noise_removed.png)
+  ![image text](./noise_removed.png) 
+  ![screenshot](noise_removed.png)
 
 
 
