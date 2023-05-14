@@ -3,7 +3,7 @@ This is a hybrid image denoising approach combining CNNs, wavelet transform and 
 
 <h2>Files</h2>
 <ol>
-<li> `Experiment_one.ipynb` this is the convolutional neural network that the images will be passed through after being denoised by discrete wavelength tranforms</li>
+<li> `Experiment_one_CNN.ipynb` this is the convolutional neural network that the images will be passed through after being denoised by discrete wavelength tranforms</li>
 <li> `Experiment_two_identifying_noisy_images.ipynb`  - this is the ipynb file that reads the three directories 
     <ul>
     <li>Bengin cases</li>
@@ -40,11 +40,9 @@ To run the image super-resolution code, follow these steps:
 <ol>
 <li>Clone this repository to your local machine.</li>
 <li>Install the required libraries using `pip install tensorflow keras numpy opencv-python`.</li>
-<li>Open the `CNN.ipynb` file in a Python IDE.</li>
-<li>Modify the `input_image_path` variable to point to the noisy input image you want to upscale.</li>
+<li>Open the `*.ipynb`(any ipynb of your choice) file in a Python IDE.</li>
+<li>Modify the `input_image_path` variable to point to the noisy input image you need for the experiment.</li>
 <li>Modify the `output_image_path` variable to specify the output location for the denoising image.</li>
-<li>Modify the `scale_factor` variable to set the scaling factor for the denoising algorithm.</li>
-<li>Run the `super_resolve` function.</li>
 <li>The denoised image will be saved to the specified output path.</li>
 </ol>
 
